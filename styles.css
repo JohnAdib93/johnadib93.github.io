@@ -10,19 +10,24 @@ justify-content: center;
     outline: 0%;
     background-repeat: no-repeat;
     background-position: center center;
-    width:90%; /*Takes 90% width from WebContainer*/
+    width:100%; /*Takes 90% width from WebContainer*/
     height: auto;
     margin: auto;    
   }
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background-color: #333;
   position: fixed;
   bottom: 0;
+  width: 100%;
+  display: flex;
   justify-content: center;
-  margin: auto;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -35,6 +40,7 @@ justify-content: center;
   font-family: 'Great Vibes', cursive;
   text-decoration: none;
   font-size: 21px;
+
 }
 
 /* Change the color of links on hover */
