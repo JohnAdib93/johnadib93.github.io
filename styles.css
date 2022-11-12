@@ -1,17 +1,18 @@
 .container {
-margin: 0;
-border: none;
-padding: 0;
+margin: auto;
+border: #ddd;
 width: 100%;
-min-width:1000px;
 height: auto;
-box-sizing: border-box;
 display: flex;
 justify-content: center;
 }
 .card_img {
+    outline: 0%;
     background-repeat: no-repeat;
     background-position: center center;
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;    
   }
 
 /* Place the navbar at the bottom of the page, and make it stick */
@@ -19,7 +20,7 @@ justify-content: center;
   background-color: #333;
   overflow: hidden;
   position: fixed;
-  bottom: 1%;
+  bottom: 0;
   justify-content: center;
 }
 
@@ -32,7 +33,7 @@ justify-content: center;
   padding: 14px 16px;
   font-family: 'Great Vibes', cursive;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 21px;
 }
 
 /* Change the color of links on hover */
