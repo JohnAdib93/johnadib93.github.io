@@ -11,6 +11,7 @@ justify-content: center;
     background-repeat: no-repeat;
     background-position: center center;
     height: auto;
+    width:100%; /*Takes 90% width from WebContainer*/
     margin: auto;    
   }
 
