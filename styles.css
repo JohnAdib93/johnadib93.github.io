@@ -80,6 +80,8 @@ width: -webkit-fill-available;
 .map {
   max-width: 380px;
   max-height: 400px;
+  width: fit-content;
+  height: fit-content;
   position: fixed;
   display: flex;
   justify-content: center;
