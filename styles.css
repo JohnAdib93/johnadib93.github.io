@@ -6,7 +6,7 @@ height: auto;
 display: flex;
 justify-content: center;
 }
-.card_img {
+.video {
     outline: 0%;
     background-repeat: no-repeat;
     background-position: center center;
