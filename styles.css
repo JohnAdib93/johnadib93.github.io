@@ -84,7 +84,4 @@ width: -webkit-fill-available;
   align-items: center;
   margin: 0;
   position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-35%);
-}
+  top: 35%;
