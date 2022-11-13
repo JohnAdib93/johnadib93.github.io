@@ -85,5 +85,4 @@ width: -webkit-fill-available;
   margin: 0;
   position: absolute;
   top: 35%;
-  display: flex;
-  justify-content: center;
+}
