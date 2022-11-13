@@ -80,8 +80,8 @@ width: -webkit-fill-available;
 .map {
   max-width: 380px;
   max-height: 400px;
-  position: absolute;
-  top: 58%;
+  position: fixed;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
