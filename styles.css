@@ -81,6 +81,8 @@ width: -webkit-fill-available;
   max-width: 380px;
   max-height: 400px;
   position: fixed;
+  display: flex;
+  justify-content: center;
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
