@@ -36,9 +36,9 @@ background-position: center center;
 list-style-type: none;
 overflow: hidden;
 background-color: #333;
-position: absolute;
+position: fixed;
 bottom: 0;
-width: auto;
+width: 200%;
 display: flex;
 justify-content: center;
 
