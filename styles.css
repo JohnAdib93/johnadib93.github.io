@@ -1,11 +1,14 @@
-body {
-  min-height: 100vh;
-  position: relative;
-  margin: 0;
+html, body {
+  display: flex;
+  flex-direction:column;
+  max-width: 1080px;
+  height: 100vh;
+  margin: 0 auto;
 }
 .container {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+
 }
 .video {
     outline: 0%;
