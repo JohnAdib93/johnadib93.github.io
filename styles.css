@@ -38,7 +38,7 @@ overflow: hidden;
 background-color: #333;
 position: absolute;
 bottom: 0;
-width: 100%;
+width: 70%;
 display: flex;
 justify-content: center;
 
@@ -53,6 +53,7 @@ padding: 12px 14px;
 font-family: 'Great Vibes', cursive;
 text-decoration: none;
 font-size: 22px;
+
 
 }
 
