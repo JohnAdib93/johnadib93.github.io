@@ -33,21 +33,21 @@ justify-content: center;
 
 /* Style the button and place it in the middle of the container/image */
 .btn {
+  width: 100px;
+  height: auto;
   position: fixed;
   top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: white;
-  min-width: fit-content;
-  font-size: 10px;
   padding: 8px 16px;
   border: none;
   cursor: pointer;
 }
 
 .container .btn:hover {
-  background-color: rgb(163, 105, 238);
+  border-radius: 45%;
+  background-color: rgb(131, 131, 131);
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
