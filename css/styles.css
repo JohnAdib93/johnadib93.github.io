@@ -26,6 +26,29 @@ height: 100%;
 object-fit: contain;
 background-repeat: no-repeat;
 background-position: center center;
+display: flex;
+justify-content: center;
+
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  min-width: fit-content;
+  font-size: 10px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .btn:hover {
+  background-color: rgb(163, 105, 238);
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
